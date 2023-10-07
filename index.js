@@ -1,10 +1,11 @@
     function func() {
     let array = ["London", "Paris",
-        "Berlin","Madrid"]
+        "Berlin","Madrid"];
    
-    
-    let new_array = array.reverse();
-    console.log(new_array);
-   }
-   func();
+    array.reverse();
+
+    console.log(array);
+    }
+    func();
+  
    
